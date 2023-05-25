@@ -37,7 +37,7 @@
         </li>
         <li>
             <p>House cats share 95.6% of their genetic makeup with tigers</p><img
-                src="House cats share 95.6% of their genetic makeup with tigers" alt="">
+                src="https://www.thepurringtonpost.com/wp-content/uploads/2015/07/wildcat4.jpg" alt="">
         </li>
         <li>
             <p>A house cat can reach speeds of up to 30mph</p><img
@@ -63,6 +63,18 @@
     ol {
         counter-reset: fact-counter;
         list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        background-color: aliceblue;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 600px;
     }
 
     li:before {
@@ -74,7 +86,7 @@
         max-width: 500px;
     }
 
-    body { 
+    body {
         background-image: url("https://wallpaperaccess.com/full/3068021.jpg");
         background-size: cover;
         background-position: center center;
